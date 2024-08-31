@@ -1,0 +1,127 @@
+.animated-background {
+    height: 100vh;
+    background: linear-gradient(45deg, #6f4f28, #d8cfc4, #3b2a1a);
+    background-size: 600% 600%;
+    animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+.header1{
+
+    font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  margin-left: 300px;
+}
+
+
+.container{
+display: block;
+width: 50%;
+margin: auto;
+
+}
+.key{
+    outline: none;
+    border: 10px solid black;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: burlywood;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+
+.beans{
+
+    opacity: 0.5;
+    box-shadow: 0 0 15px 0 rgba(255, 0, 0, 0.7),    /* Red */
+    0 0 15px 0 rgba(255, 127, 0, 0.7),  /* Orange */
+    0 0 15px 0 rgba(255, 255, 0, 0.7),  /* Yellow */
+    0 0 15px 0 rgba(0, 255, 0, 0.7),    /* Green */
+    0 0 15px 0 rgba(0, 0, 255, 0.7),    /* Blue */
+    0 0 15px 0 rgba(75, 0, 130, 0.7),   /* Indigo */
+    0 0 15px 0 rgba(148, 0, 211, 0.7); 
+}
+.a{
+    background-image: url("./images/brownpiano23.jpg");
+}
+.s{
+    background-image: url("./images/brownpiano23.jpg");   
+}
+.u{
+    background-image: url("./images/bassguitar23.jpg"); 
+}
+.i{
+background-image: url("images/bassguitar23.jpg");
+
+}
+.o{
+    background-image: url("images/bassguitar23.jpg");
+}
+.p{
+
+    background-image: url("images/bassguitar23.jpg");
+}
+
+
+.j{
+    background-image: url("images/drumset22.jpg");
+}
+
+.k{
+    background-image: url("images/drumset22.jpg");;
+
+}
+
+.w{
+    background-image: url("./images/brownmic.jpg");
+}
+
+
+.e{
+
+    background-image: url("./images/brownmic.jpg");
+}
+
+.r{
+
+    background-image: url("./images/brownmic.jpg");
+}
+
+.t{
+
+    background-image: url("./images/brownmic.jpg");
+}
+
+.y{
+    background-image: url("./images/brownmic.jpg");
+
+}
+.ending{
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
